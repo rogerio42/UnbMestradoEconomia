@@ -5,9 +5,9 @@
 %% --- Contextualização do departamento ---
 %%
 
-\def\@departamento{Faculdade de Economia, Administra\c{c}\~{a}o e Contabilidade}
-\def\@instituto{Instituto de Economia}
-\def\@universidade{Universidade de Bras\'{\i}lia}
+\def\@departamento{Faculdade de Economia, Administra\c{c}\~{a}o, Contabilidade e Gest\~{a}o de Pol\'{i}ticas P\'{u}blicas}
+\def\@instituto{}
+\def\@universidade{Universidade de Bras\'{i}lia}
 \def\@siglauni{UnB}
 \def\@cidade{Bras\'ilia}
 \def\@uf{DF}
@@ -900,7 +900,7 @@
 		\@IncluirSecao{agradecimentos}%
 	\fi%
 	%\@IncluirSecao{resumo}% rogerio
-	\selectlanguage{american}%
+% 	\selectlanguage{american}%
 	%\@IncluirSecao{abstract}%rogerio
 	\selectlanguage{brazil}%
     \selectbiblanguage{brazil}%
