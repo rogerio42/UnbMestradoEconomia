@@ -143,6 +143,7 @@
 \RequirePackage[brazil,american]{babel}% Idiomas
 %\RequirePackage[fixlanguage]{babelbib}%  Idioma das referências
 \RequirePackage[fixlanguage]{abntex2cite}%  Idioma das referências
+%\usepackage{abntex2cite}%  Idioma das referências
 \RequirePackage[utf8]{inputenc}%         Arquivos na codificação UTF-8
 \RequirePackage[T1]{fontenc}%            Habilita busca com caracteres latinos
 \RequirePackage{lmodern}%                Habilita busca com caracteres latinos
@@ -918,7 +919,7 @@
 \newcommand{\@conteudoPosTextual}{%
 	\@PosTextualNaoInclusofalse%
     \postextual%
-	\bibliographystyle{babunsrt}%
+	\bibliographystyle{abnt}%
     \bibliography{mendeley_v2}%
 }%
 
